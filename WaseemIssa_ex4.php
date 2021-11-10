@@ -4,7 +4,6 @@
 A PHP function to reverse elements in an array by Waseem Issa
 */
 
-
 function reverse($arr){
     $length = count($arr);
     $rev = [];
@@ -24,8 +23,5 @@ $new = reverse($old);
 
 foreach ($new as $item)
 echo $item."\n";
-
-
-
 
 ?>

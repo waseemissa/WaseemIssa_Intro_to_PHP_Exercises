@@ -27,9 +27,8 @@ function remove($item, $arr){
             if($arr[$i] != $item)
                 array_push($new_array,$arr[$i]);
             
-                
                 foreach($new_array as $item)
-                echo "\n".$item;
+                    echo "\n".$item;
     return $new_array;            
     }
     
@@ -44,8 +43,5 @@ $number = 50;
 remove($number, $ages);
 $number = 60;
 remove($number, $ages);
-
-
-
 
 ?>

@@ -19,11 +19,8 @@ echo nl2br("The even numbers are: \n");
 foreach ($even as $e)
 echo $e."\n";
 
-
 echo nl2br("\nThe odd numbers are: \n");
 foreach($odd as $o)
 echo $o."\n";
-
-
 
 ?>

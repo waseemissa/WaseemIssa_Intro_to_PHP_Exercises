@@ -13,9 +13,4 @@ sort($numbers);
 echo "The minimum in the array is: ".$numbers[0];
 echo nl2br("\nThe maximum in the array is ".$numbers[count($numbers)-1]);
 
-
-
-
-
-
 ?>

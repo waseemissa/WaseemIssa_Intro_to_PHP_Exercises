@@ -17,8 +17,4 @@ function factorial($number){
 $n = 5;
 echo "The factorial of ".$n." is: ".factorial($n); 
 
-
-
-
-
 ?>

@@ -18,6 +18,4 @@ foreach ($grades as $i => $item)
 
 echo "The index of the highest value is: ".$index;
 
-
-
 ?>

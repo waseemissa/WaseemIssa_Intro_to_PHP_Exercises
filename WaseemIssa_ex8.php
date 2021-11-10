@@ -19,5 +19,4 @@ echo "The two lists merged together give: ";
 foreach ($merged_array as $item)
 echo $item."\n";
 
-
 ?>

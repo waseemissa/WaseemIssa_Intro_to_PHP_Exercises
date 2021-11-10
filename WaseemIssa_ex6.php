@@ -17,25 +17,16 @@ while ($num>0){
     $num = $num/10;
 }
 
-
-
 for($i = 0; $i <count($num_to_array) ; $i++){
     $dec+= pow(2,$i)*$num_to_array[$i]; 
 
 }
 
-
 return $dec;
-
 
 }
 //Driver Code
 $binary_number = 101101;
 echo $binary_number." converted to decimal is : ".binaryToDecimal($binary_number);
-
-
-
-
-
 
 ?>
